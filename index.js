@@ -7,7 +7,7 @@ const commandfolder = fs.readdirSync("./commands").filter(file => file.endsWith(
 const settings = {
   prefix: 'afh!'
 }
-client.once('ready', () =>{ console.log('ak-bot is online!'); client.user.setActivity('you can change this',  { type: 'WATCHING'}); });
+client.once('ready', () =>{ console.log('AFHBot is ready!'); client.user.setActivity('Hello world!',  { type: 'PLAYING'}); });
 console.log('Bot is using node')
 console.log(process.version)
 client.on('message', async message => {
