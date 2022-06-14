@@ -6,8 +6,9 @@ module.exports = {
       .setColor('#ff0000')
       .setTitle('commands :)')
       .addFields(
-        { name: 'hey', value: 'a!hey' },
-        { name: 'help', value: 'a!help' },
+        { name: 'help', value: 'afh!help' },
+        { name: 'ban', value: 'afh!ban' },
+        { name: 'kick', value: 'afh!kick' },
       )
       message.channel.send({embeds: [helpembed]})
     }
