@@ -5,7 +5,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 client.commands = new Discord.Collection
 const commandfolder = fs.readdirSync("./commands").filter(file => file.endsWith('.js'));
 const settings = {
-  prefix: 'a!',
+  prefix: 'afh!',
   token: 'process.env.TOKEN'
 }
 client.once('ready', () =>{ console.log('ak-bot is online!'); client.user.setActivity('you can change this',  { type: 'WATCHING'}); });
