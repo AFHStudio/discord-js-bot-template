@@ -25,7 +25,7 @@ client.on('message', async message => {
     };
   if (!message.content.startsWith(settings.prefix) || message.author.bot) return;
 });
-client.login(settings.token)
+client.login(process.env.TOKEN)
 for(const file of commandfolder){
     const command = require(`./commands/${file}`);
     client.commands.set(command.name, command)
