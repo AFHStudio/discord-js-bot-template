@@ -1,0 +1,6 @@
+{
+  "name": "Discord.JS Bot Template",
+  "description": "A customizable Discord.JS bot template.",
+  "repository": "https://github.com/afhstudio/discord-js-bot-template",
+  "keywords": ["discord", "bot", "nodejs"]
+}
